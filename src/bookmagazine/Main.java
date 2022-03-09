@@ -6,11 +6,11 @@ import java.util.Scanner;
 public class Main {
     public static boolean check(Book book, Book[] bookArr) {
         for (Book i : bookArr) {
-            //System.out.println(i.toString());
+            System.out.println(i.toString());
             if (i.equals(book)) {
                 return false;
             }
-            //System.out.println("j");
+            System.out.println("j");
         }
         return true;
     }
