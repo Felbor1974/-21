@@ -11,6 +11,10 @@ public class Main {
                 return false;
             }
             System.out.println("j");
+            System.out.println("j");
+            System.out.println("j");
+
+
         }
         return true;
     }
